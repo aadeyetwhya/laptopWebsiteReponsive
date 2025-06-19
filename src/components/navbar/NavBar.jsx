@@ -1,0 +1,33 @@
+import React from 'react'
+import SearchBar from '../searchBar/SearchBar'
+
+function NavBar() {
+  const navBarMenu=()=>{
+    return  <ul className='flex justify-center lg:text-lg'>
+          <li className='pr-3 hover:text-black cursor-pointer'>Home</li>
+          <li className='pr-3 hover:text-black cursor-pointer'>All Products</li>
+          <li className='pr-3 hover:text-black cursor-pointer'>About</li>
+          <li className='pr-3 hover:text-black cursor-pointer'>Signup</li>
+          <li className='pr-3 hover:text-black cursor-pointer'>sfsf</li>
+        </ul>
+  }
+ 
+  
+  return (
+    <div className='wholeNavBar bg-red-500 pt-2  pb-2 lg:flex lg:justify-between lg:p-2 lg:px-3 lg:items-center'>
+      <div className="title text-3xl text-black text-center" >
+        Lap <span className='text-white'>Setu</span>
+      </div>
+      <div className="middleMenu  text-white">
+       {navBarMenu()}
+
+
+      </div>
+      <div className="searchSection text-center">
+        <SearchBar/>
+      </div>
+    </div>
+  )
+}
+
+export default NavBar
