@@ -14,7 +14,7 @@ function NavBar() {
  
   
   return (
-    <div className='wholeNavBar bg-red-500 pt-2  pb-2 lg:flex lg:justify-between lg:p-2 lg:px-3 lg:items-center w-full '>
+    <div className='wholeNavBar bg-red-500 pt-2  pb-2 lg:flex lg:justify-between lg:p-2 lg:px-3 lg:items-center w-full lg:py-3 fixed top-0 '>
       <div className="title text-3xl text-black text-center" >
         Lap <span className='text-white'>Setu</span>
       </div>
