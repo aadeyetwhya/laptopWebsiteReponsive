@@ -5,6 +5,7 @@ import './App.css'
 
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from './pages/homePage/HomePage';
+import NoPage from './pages/noPage/NoPage';
 
 
 function App() {
@@ -15,6 +16,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<HomePage />} /> {/* Correct route for Home */}
+                    <Route path="/*" element={<NoPage />} /> {/* Correct route for Home */}
+
          
         </Routes>
       </BrowserRouter>
