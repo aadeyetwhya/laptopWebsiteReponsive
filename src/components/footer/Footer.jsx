@@ -35,17 +35,20 @@ function Footer() {
         <div className="socialMedia w-full  lg:my-6 lg:w-1/16 ">
           <ul className='flex justify-center lg:block'>
             <li>
-              <a href="https://www.facebook.com/" target="_blank">
-                <FaFacebook size={30} className='text-blue-600 m-3' /></a></li>
+  <a href="https://www.facebook.com/" target="_blank">
+    <FaFacebook className="text-blue-600 m-3 text-3xl transform transition-transform duration-300 hover:scale-135" />
+  </a>
+</li>
+
             <li>
               <a href="https://www.twitter.com/" target="_blank">
-                <FaTwitter size={30} className='text-blue-400  m-3' /></a></li>
+                <FaTwitter size={30} className='text-blue-400  m-3 text-3xl transform transition-transform duration-300 hover:scale-135' /></a></li>
             <li>
               <a href="https://www.instagram.com/" target="_blank">
-                <FaInstagram size={30} className='text-pink-400  m-3' /></a></li>
+                <FaInstagram size={30} className='text-pink-400  m-3 text-3xl transform transition-transform duration-300 hover:scale-135' /></a></li>
             <li>
               <a href="https://www.whatsapp.com/" target="_blank">
-                <FaWhatsapp size={30} className='text-green-400  m-3' /></a></li>
+                <FaWhatsapp size={30} className='text-green-400  m-3 text-3xl transform transition-transform duration-300 hover:scale-135' /></a></li>
           </ul>
         </div>
       </div>
