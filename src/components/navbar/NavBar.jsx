@@ -1,14 +1,15 @@
 import React from 'react'
 import SearchBar from '../searchBar/SearchBar'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   const navBarMenu=()=>{
     return  <ul className='flex justify-center lg:text-lg'>
-          <li className='pr-3 hover:text-black cursor-pointer'>Home</li>
-          <li className='pr-3 hover:text-black cursor-pointer'>All Products</li>
-          <li className='pr-3 hover:text-black cursor-pointer'>About</li>
-          <li className='pr-3 hover:text-black cursor-pointer'>Signup</li>
-          <li className='pr-3 hover:text-black cursor-pointer'>sfsf</li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/" >Home</Link></li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" > All Products</Link></li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >About</Link></li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >Signup</Link></li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >Cart</Link></li>
         </ul>
   }
  
