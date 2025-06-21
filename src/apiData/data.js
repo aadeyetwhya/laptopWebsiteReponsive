@@ -1,5 +1,6 @@
 export const laptopData = [
     
+
   {
     "id": 1,
     "brand": "Dell",
@@ -9,8 +10,16 @@ export const laptopData = [
     "ram": "8GB",
     "storage": "256GB SSD",
     "price": 49000,
-    "rating": 4.6
+    "rating": 4.6,
+    "description": "A reliable everyday laptop ideal for web browsing, productivity, and light multitasking.",
+    "size": "18.2 x 324 x 224 mm",
+    "battery": "7 hours",
+    "weight": "1.48 kg",
+    "maxPower": "65W",
+    "display": "14-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel UHD Graphics"
   },
+
   {
     "id": 2,
     "brand": "HP",
@@ -21,8 +30,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 82000,
     "rating": 4.7,
-    "imgSrc":"https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06107420.png"
+    "imgSrc": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c06107420.png",
+    "description": "A popular all-rounder laptop with a balance of power and style, suitable for work and casual use.",
+    "size": "17.9 x 360 x 234 mm",
+    "battery": "8.5 hours",
+    "weight": "1.75 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
   },
+
   {
     "id": 3,
     "brand": "Lenovo",
@@ -33,8 +50,16 @@ export const laptopData = [
     "storage": "256GB SSD",
     "price": 46000,
     "rating": 3.9,
-    "imgSrc":"https://static.lenovo.com/na/subseries/hero/ideapad-1-14-intel-ice-blue-hero.png"
+    "imgSrc": "https://static.lenovo.com/na/subseries/hero/ideapad-1-14-intel-ice-blue-hero.png",
+    "description": "An entry-level student laptop designed for basic tasks like document editing and web browsing.",
+    "size": "22.9 x 363 x 254 mm",
+    "battery": "6 hours",
+    "weight": "2.2 kg",
+    "maxPower": "45W",
+    "display": "15.6-inch HD (1366x768), 60Hz",
+    "graphics": "Integrated AMD Radeon Graphics"
   },
+
   {
     "id": 4,
     "brand": "Asus",
@@ -45,10 +70,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 65000,
     "rating": 4.3,
-        "imgSrc":"https://dlcdnwebimgs.asus.com/gain/26bf5ad2-b2f0-4035-b4e5-c416de329ce2/"
-
-
+    "imgSrc": "https://dlcdnwebimgs.asus.com/gain/26bf5ad2-b2f0-4035-b4e5-c416de329ce2/",
+    "description": "A compact productivity laptop with modern Intel CPU, great for students and professionals alike.",
+    "size": "19.9 x 324 x 215 mm",
+    "battery": "8 hours",
+    "weight": "1.6 kg",
+    "maxPower": "65W",
+    "display": "14-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
   },
+
   {
     "id": 5,
     "brand": "Acer",
@@ -59,8 +90,16 @@ export const laptopData = [
     "storage": "256GB SSD",
     "price": 39500,
     "rating": 3.8,
-    "imgSrc":"https://th.bing.com/th/id/R.be116ee26fa9b1620f79ed77e48036af?rik=ySRNRd8Xp6%2fdoA&pid=ImgRaw&r=0"
+    "imgSrc": "https://th.bing.com/th/id/R.be116ee26fa9b1620f79ed77e48036af?rik=ySRNRd8Xp6%2fdoA&pid=ImgRaw&r=0",
+    "description": "A budget laptop for students and light users looking for basic computing on a low budget.",
+    "size": "19.9 x 363 x 247 mm",
+    "battery": "6.5 hours",
+    "weight": "1.9 kg",
+    "maxPower": "45W",
+    "display": "15.6-inch HD (1366x768), 60Hz",
+    "graphics": "Intel UHD Graphics 600"
   },
+
   {
     "id": 6,
     "brand": "Apple",
@@ -71,8 +110,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 168000,
     "rating": 4.9,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101775.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101775.png",
+    "description": "A sleek and ultra-portable MacBook offering outstanding battery life and performance for creatives and professionals.",
+    "size": "11.3 x 304 x 215 mm",
+    "battery": "18 hours",
+    "weight": "1.24 kg",
+    "maxPower": "67W",
+    "display": "13.6-inch Liquid Retina (2560x1664), 60Hz",
+    "graphics": "Integrated 10-core GPU (Apple M2)"
   },
+
   {
     "id": 7,
     "brand": "MSI",
@@ -83,8 +130,16 @@ export const laptopData = [
     "storage": "1TB SSD",
     "price": 135000,
     "rating": 4.6,
-    "imgSrc":"https://th.bing.com/th/id/R.a67f0cab0d816dfec1c974a86a72659d?rik=nir53DshhTqlxg&pid=ImgRaw&r=0"
+    "imgSrc": "https://th.bing.com/th/id/R.a67f0cab0d816dfec1c974a86a72659d?rik=nir53DshhTqlxg&pid=ImgRaw&r=0",
+    "description": "A professional-grade laptop with high-end specs, perfect for business users and multitaskers.",
+    "size": "18.9 x 356 x 233 mm",
+    "battery": "10 hours",
+    "weight": "1.6 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
   },
+
   {
     "id": 8,
     "brand": "HP",
@@ -95,8 +150,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 77500,
     "rating": 4.4,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101809.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101809.png",
+    "description": "A widely recommended general-purpose laptop combining performance and design.",
+    "size": "19.9 x 358 x 242 mm",
+    "battery": "7.5 hours",
+    "weight": "1.69 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
   },
+
   {
     "id": 9,
     "brand": "Lenovo",
@@ -107,8 +170,18 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 112000,
     "rating": 4.5,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101766.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101766.png",
+    "description": "A durable and secure business laptop, optimized for enterprise performance and reliability.",
+    "size": "17.9 x 324 x 220 mm",
+    "battery": "12 hours",
+    "weight": "1.6 kg",
+    "maxPower": "65W",
+    "display": "14-inch FHD (1920x1080), 60Hz, Anti-glare",
+    "graphics": "Intel Iris Xe Graphics"
   },
+
+ 
+
   {
     "id": 10,
     "brand": "Dell",
@@ -121,6 +194,26 @@ export const laptopData = [
     "rating": 4.1,
     "imgSrc":"https://th.bing.com/th/id/R.a75d7329e77a0da053246fb73ad3c58d?rik=LMm3V6QWiwdlMg&pid=ImgRaw&r=0"
   },
+   {
+    "id": 10,
+    "brand": "Dell",
+    "modelName": "Dell Vostro 3520",
+    "category": "General",
+    "processor": "Intel Core i5-1135G7",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "price": 62000,
+    "rating": 4.1,
+    "imgSrc": "https://th.bing.com/th/id/R.a75d7329e77a0da053246fb73ad3c58d?rik=LMm3V6QWiwdlMg&pid=ImgRaw&r=0",
+    "description": "A solid, no-frills business laptop with reliable performance and build quality.",
+    "size": "19.9 x 363 x 249 mm",
+    "battery": "7.5 hours",
+    "weight": "1.9 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
+  },
+
   {
     "id": 11,
     "brand": "Asus",
@@ -131,8 +224,16 @@ export const laptopData = [
     "storage": "1TB SSD",
     "price": 148000,
     "rating": 4.7,
-    "imgSrc":"https://dlcdnwebimgs.asus.com/gain/6c49e355-de25-403c-b8c2-eb0ad4cc8a78/w800"
+    "imgSrc": "https://dlcdnwebimgs.asus.com/gain/6c49e355-de25-403c-b8c2-eb0ad4cc8a78/w800",
+    "description": "A high-performance gaming laptop with a rugged build, designed for AAA gaming and multitasking.",
+    "size": "24.5 x 359 x 256 mm",
+    "battery": "6 hours",
+    "weight": "2.3 kg",
+    "maxPower": "200W",
+    "display": "15.6-inch FHD (1920x1080), 144Hz",
+    "graphics": "NVIDIA GeForce RTX 3050 Ti"
   },
+
   {
     "id": 12,
     "brand": "MSI",
@@ -143,8 +244,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 128000,
     "rating": 4.4,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101786.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101786.png",
+    "description": "A lightweight gaming laptop delivering solid GPU power for competitive gaming and creative tasks.",
+    "size": "21.7 x 359 x 254 mm",
+    "battery": "7 hours",
+    "weight": "1.86 kg",
+    "maxPower": "150W",
+    "display": "15.6-inch FHD (1920x1080), 144Hz",
+    "graphics": "NVIDIA GeForce GTX 1650"
   },
+
   {
     "id": 13,
     "brand": "Acer",
@@ -155,8 +264,16 @@ export const laptopData = [
     "storage": "512GB SSD",
     "price": 67000,
     "rating": 4.2,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101763.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101763.png",
+    "description": "A mid-range laptop ideal for productivity and everyday computing with fast AMD performance.",
+    "size": "17.9 x 363 x 238 mm",
+    "battery": "9 hours",
+    "weight": "1.8 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "AMD Radeon Vega 7"
   },
+
   {
     "id": 14,
     "brand": "Apple",
@@ -167,8 +284,16 @@ export const laptopData = [
     "storage": "1TB SSD",
     "price": 240000,
     "rating": 4.9,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101774.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101774.png",
+    "description": "Apple’s most powerful MacBook for creative professionals, featuring exceptional display and efficiency.",
+    "size": "15.5 x 312 x 221 mm",
+    "battery": "18 hours",
+    "weight": "1.55 kg",
+    "maxPower": "96W",
+    "display": "14.2-inch Liquid Retina XDR (3024x1964), 120Hz ProMotion",
+    "graphics": "Apple M3 10-core GPU"
   },
+
   {
     "id": 15,
     "brand": "Lenovo",
@@ -179,10 +304,116 @@ export const laptopData = [
     "storage": "1TB SSD",
     "price": 158000,
     "rating": 4.6,
-    "imgSrc":"https://pngimg.com/uploads/laptop/laptop_PNG101766.png"
+    "imgSrc": "https://pngimg.com/uploads/laptop/laptop_PNG101766.png",
+    "description": "A premium ultrabook designed for sleek performance and mobility with a stylish metal body.",
+    "size": "14.9 x 320 x 208 mm",
+    "battery": "14 hours",
+    "weight": "1.3 kg",
+    "maxPower": "65W",
+    "display": "14-inch 2.8K OLED (2880x1800), 90Hz",
+    "graphics": "Intel Iris Xe Graphics"
+  }
+  ,
+    {
+    "id": 16,
+    "brand": "Samsung",
+    "modelName": "Samsung Galaxy Book3",
+    "category": "Ultrabook",
+    "processor": "Intel Core i7-1360P",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "price": 142000,
+    "rating": 4.5,
+    "imgSrc": "https://images.samsung.com/is/image/samsung/p6pim/in/np750xed-kc2in/gallery/in-galaxy-book3-15inch-i7-16gb-np750xed-kc2in-534783621?$650_519_PNG$",
+    "description": "A stylish and powerful ultrabook built for professionals, featuring a vibrant AMOLED screen.",
+    "size": "15.4 x 356 x 229 mm",
+    "battery": "13 hours",
+    "weight": "1.57 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD AMOLED (1920x1080), 60Hz",
+    "graphics": "Intel Iris Xe Graphics"
+  },
+
+  {
+    "id": 17,
+    "brand": "Microsoft",
+    "modelName": "Surface Laptop 5",
+    "category": "Ultrabook",
+    "processor": "Intel Core i5-1235U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "price": 125000,
+    "rating": 4.6,
+    "imgSrc": "https://cdn.imgbin.com/20/12/5/imgbin-surface-pro-3-computer-keyboard-laptop-surface-pro-4-laptop-Yp54D8sn2yBKLRiXaMGQ3V7uf.jpg",
+    "description": "A premium Windows laptop with an ultra-thin design, touchscreen support, and long battery life.",
+    "size": "14.5 x 308 x 223 mm",
+    "battery": "17 hours",
+    "weight": "1.29 kg",
+    "maxPower": "65W",
+    "display": "13.5-inch PixelSense (2256x1504), 60Hz Touch",
+    "graphics": "Intel Iris Xe Graphics"
+  },
+
+  {
+    "id": 18,
+    "brand": "Gigabyte",
+    "modelName": "Gigabyte G5 MF",
+    "category": "Gaming",
+    "processor": "Intel Core i5-12500H",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "price": 118000,
+    "rating": 4.3,
+    "imgSrc": "https://www.gigabyte.com/FileUpload/Global/Product/13630/zero",
+    "description": "A performance gaming laptop with strong thermals and NVIDIA RTX power for immersive play.",
+    "size": "23.4 x 359 x 238 mm",
+    "battery": "6 hours",
+    "weight": "2.1 kg",
+    "maxPower": "180W",
+    "display": "15.6-inch FHD (1920x1080), 144Hz",
+    "graphics": "NVIDIA GeForce RTX 4050"
+  },
+
+  {
+    "id": 19,
+    "brand": "Huawei",
+    "modelName": "Huawei MateBook D15",
+    "category": "General",
+    "processor": "AMD Ryzen 5 5500U",
+    "ram": "8GB",
+    "storage": "512GB SSD",
+    "price": 59000,
+    "rating": 4.2,
+    "imgSrc": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/pc/matebook-d-15-2021/images/product/ksp/laptop.png",
+    "description": "A lightweight and elegant laptop offering a premium aluminum build and smooth everyday performance.",
+    "size": "16.9 x 357 x 230 mm",
+    "battery": "9.5 hours",
+    "weight": "1.56 kg",
+    "maxPower": "65W",
+    "display": "15.6-inch FHD (1920x1080), 60Hz",
+    "graphics": "AMD Radeon Vega 7"
+  },
+
+  {
+    "id": 20,
+    "brand": "Chuwi",
+    "modelName": "Chuwi HeroBook Pro",
+    "category": "Student",
+    "processor": "Intel Celeron N4020",
+    "ram": "8GB",
+    "storage": "256GB SSD",
+    "price": 29900,
+    "rating": 3.7,
+    "imgSrc": "https://www.chuwi.com/media/catalog/product/cache/8cfb9a409fef0d2ae8055d7a5d2e9059/h/e/herobookpro.png",
+    "description": "An ultra-affordable laptop tailored for students and light users needing basic performance on a budget.",
+    "size": "21.5 x 332 x 214 mm",
+    "battery": "6 hours",
+    "weight": "1.39 kg",
+    "maxPower": "36W",
+    "display": "14.1-inch FHD (1920x1080), 60Hz",
+    "graphics": "Intel UHD Graphics 600"
   }
 
-  // [...35 more entries omitted for brevity...]
 ]
 
 
