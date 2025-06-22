@@ -20,9 +20,9 @@ function ProductInfo() {
     console.log(typeof id, id)
     return (
         <Layout>
-            <div className='wholeProductPage bg-white py-6 lg:py-21.5 lg:mx-27' >
-                <div className="productSection p-6 lg:flex ">
-                    <div className="productImageSection w-full flex items-center justify-center lg:w-1/2 ">
+            <div className='wholeProductPage bg-white py-6 lg:pt-18 lg:mb-25 lg:mx-27' >
+                <div className="productSection p-6 lg:flex lg:justify-between ">
+                    <div className="productImageSection w-full flex items-center justify-center lg:w-1/2 md:mr-5">
                         <div className="productImage bg-gray-300  p-8 lg:px-14 lg:py-20 ">
                             <img src={productInfo?.imgSrc || "https://thumbs.dreamstime.com/b/no-preview-rubber-stamp-grunge-design-dust-scratches-effects-can-be-easily-removed-clean-crisp-look-color-easily-88028050.jpg"} className='lg:h-95' alt="" />
 
