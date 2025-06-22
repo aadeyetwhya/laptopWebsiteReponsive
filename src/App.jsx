@@ -6,7 +6,8 @@ import './App.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomePage from './pages/homePage/HomePage';
 import NoPage from './pages/noPage/NoPage';
-import ProductInfo from './components/productInfo/ProductInfo';
+import ProductInfo from './pages/productInfo/ProductInfo';
+
 
 
 function App() {

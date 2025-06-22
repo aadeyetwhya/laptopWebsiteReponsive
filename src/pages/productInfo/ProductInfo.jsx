@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Layout from '../layout/Layout'
+import Layout from '../../components/layout/Layout'
 import { laptopData } from '../../apiData/data'
 import { useParams } from 'react-router-dom'
-import RatingShow from '../ratingShow/RatingShow';
-import AddQuantity from '../addQuantity/AddQuantity';
+import RatingShow from '../../components/ratingShow/RatingShow';
+import AddQuantity from '../../components/addQuantity/AddQuantity';
 
 
 function ProductInfo() {
