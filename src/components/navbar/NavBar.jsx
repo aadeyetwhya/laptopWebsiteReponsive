@@ -9,7 +9,7 @@ function NavBar() {
           <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" > All Products</Link></li>
           <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >About</Link></li>
           <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >Signup</Link></li>
-          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/*" >Cart</Link></li>
+          <li className='pr-3 hover:text-black cursor-pointer'><Link to="/cartPage" >Cart</Link></li>
         </ul>
   }
  

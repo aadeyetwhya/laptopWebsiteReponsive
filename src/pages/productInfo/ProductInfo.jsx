@@ -4,20 +4,38 @@ import { laptopData } from '../../apiData/data'
 import { useParams } from 'react-router-dom'
 import RatingShow from '../../components/ratingShow/RatingShow';
 import AddQuantity from '../../components/addQuantity/AddQuantity';
+import { useDispatch, useSelector } from 'react-redux';
+import { addToCart } from '../../features/cartSlice/CartSlice';
 
 
 function ProductInfo() {
     const { id } = useParams();
+    const dispatch = useDispatch();
+    const storeItems = useSelector(
+        state => state.cart.items
+    )
+
+    //for comparing slug with all product data's id and only show related
     const [productInfo, setProductInfo] = useState(null);
     useEffect(() => {
         const productInfoValue = laptopData.find((eachProduct, index) => {
 
             return eachProduct.id === Number(id)
         })
-        console.log(productInfoValue)
         setProductInfo(productInfoValue || null);
     }, [id])
-    console.log(typeof id, id)
+    //for sending data of add to cart
+
+    const handleAddToCart = (productInfo) => {
+        dispatch(addToCart(productInfo))
+    }
+//to check in store for add to cart quantity
+    const existingItem = storeItems.find(
+        (eachStoreCartItems) => eachStoreCartItems.cartItems.id === productInfo?.id
+    );
+
+    const quantity = existingItem ? existingItem.quantity : 0;
+
     return (
         <Layout>
             <div className='wholeProductPage bg-white py-6 lg:pt-18 lg:mb-25 lg:mx-27' >
@@ -51,10 +69,14 @@ function ProductInfo() {
                             </div>
                         </div>
                         <div className="addQuantity  mb-3">
-                            <AddQuantity/>
+                            <AddQuantity  productId={productInfo?.id}/>
                         </div>
                         <div className="buy mt-4 mb-4">
-                            <button className='bg-red-700 rounded py-3  shadow-2xl w-full lg:w-5/7 text-white lg:text-lg hover:bg-red-600 cursor-pointer'>Add To Cart</button>
+                            <button className='bg-red-700 rounded py-3  shadow-2xl w-full lg:w-5/7 text-white lg:text-lg hover:bg-red-600 cursor-pointer'
+                                onClick={() => handleAddToCart(productInfo ?? "")}>Add To Cart
+                                ({
+                                   quantity
+                                })</button>
                         </div>
 
                         <h1 style={{ fontWeight: '500' }} className='text-lg lg:text-xl mb-3' >Key features</h1>
@@ -88,7 +110,7 @@ function ProductInfo() {
                             </div>
 
                         </div>
-                        
+
 
                     </div>
                 </div>
