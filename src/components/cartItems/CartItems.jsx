@@ -1,8 +1,17 @@
 import React from 'react'
 import AddQuantity from '../addQuantity/AddQuantity'
+import { useDispatch } from 'react-redux';
+import { deleteItem } from '../../features/cartSlice/CartSlice';
 
 function CartItems({storeCartItem }) {
     const productDetails=storeCartItem.cartItems;
+    const dispatch=useDispatch();
+
+    const handleDeleteItem=(productId)=>{
+            dispatch(deleteItem(productId));
+
+    }
+    
     return (
         <div className="cart py-3 px-4 mb-5 bg-gray-200 lg:flex lg:justify-between ">
             <div className="image lg:w-1/7 flex justify-center pb-2">
@@ -16,7 +25,8 @@ function CartItems({storeCartItem }) {
                              " | " + productDetails.size + " | " + " |  14' FHD display | Backlight Keyboard"}
                     </div>
                     <div className="removeItems mb-1 lg:w-1/6">
-                        <button className='text-sm text-red-600 lg:text-lg cursor-pointer hover:underline underline-offset-3'>Remove Items</button>
+                        <button className='text-sm text-red-600 lg:text-lg cursor-pointer hover:underline underline-offset-3'
+                        onClick={()=>handleDeleteItem(productDetails.id)}>Remove Items</button>
                     </div>
                 </div>
                 <div className='lg:flex lg:justify-between items-center  mt-1'>

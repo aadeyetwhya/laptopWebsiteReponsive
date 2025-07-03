@@ -6,6 +6,7 @@ const initialState = {
     //         id:1,
     //         cartItems:[],
     //         quantity:0,
+    //          selected:true
     // }
   ]
 };
@@ -47,9 +48,17 @@ export const cartSlice = createSlice({
 
         existingItem.quantity+=1;
       }
+    },
+    deleteItem:(state,action)=>{
+      const afterDelete=state.items.filter((eachItem,index)=>{
+        console.log(eachItem.cartItems.id)
+        return eachItem.cartItems.id!==action.payload;
+      })
+      state.items=[...afterDelete];
+
     }
   }
 })
 
-export const { addToCart, increaseQuantity,decreaseQuantity } = cartSlice.actions
+export const { addToCart, increaseQuantity,decreaseQuantity, deleteItem } = cartSlice.actions
 export default cartSlice.reducer

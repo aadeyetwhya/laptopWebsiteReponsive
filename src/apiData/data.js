@@ -412,6 +412,25 @@ export const laptopData = [
     "maxPower": "36W",
     "display": "14.1-inch FHD (1920x1080), 60Hz",
     "graphics": "Intel UHD Graphics 600"
+  },
+    {
+    "id": 21,
+    "brand": "Lenovo IdeaPad",
+    "modelName": "Lenovo IdeaPad Slim 3 14IRH8",
+    "category": "Student",
+    "processor": "Intel Core i5 13420H ",
+    "ram": "16GB",
+    "storage": "512GB SSD",
+    "price": 29900,
+    "rating": 3.7,
+    "imgSrc": "https://mudita.com.np/media/catalog/product/cache/036aa47742df3225beb764097d8b4fe8/l/e/lenovo-idepad-slim-3-14irh8-artic-grey-price.webp",
+    "description": "An ultra-affordable laptop tailored for students and light users needing basic performance on a budget.",
+    "size": "21.5 x 332 x 214 mm",
+    "battery": "6 hours",
+    "weight": "1.37 kg",
+    "maxPower": "36W",
+    "display": "14.0-inch FHD (1920 x 1080) ",
+    "graphics": "Intel UHD Graphics 600"
   }
 
 ]
